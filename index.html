@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="/svg/logo.svg" alt="tomato logo" class="header__logo">
+            <p>
+                PomodoroTimer.
+            </p>
+                
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__ul">
+                <li class="list__ul"><a href="./index.html" class="ul__link">Inicio</a></li>
+                <li class="list__ul"><a target="_blank" href="https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro#:~:text=Cron%C3%B4metro%20em%20forma%20de%20tomate%2C%20que%20inspirou%20o,25%20minutos%2C%20separados%20por%20breves%20intervalos.%20%5B%201%5D" class="ul__link">Informacion</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="timer">
+            <h1 class="timer__text" id="timerText">25:00</h1>
+            <div class="btn__container">
+                <button class="timer__btn" id="startBtn"><i class="btn__icon"><img src="/svg/bx-play.svg" alt="start icon"></i> Empezar</button><button class="timer__btn" id='restartBtn'><i class="btn__icon"><img src="/svg/bx-redo.svg" alt="restart icon"></i>Reiniciar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__txt">Desarollado por erredev</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

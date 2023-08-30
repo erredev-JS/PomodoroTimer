@@ -1,0 +1,119 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', monospace;
+
+}
+body{
+    background-image: linear-gradient(120deg, #ac0cac77 0%, tomato 100%);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.header{
+    padding: 20px 5vw;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.header__nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav__ul{
+    display: flex;
+}
+.list__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+.ul__link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.ul__link:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease transform;
+    border-bottom: 2px white solid;
+}
+.main{
+    display: flex;
+}
+.timer{
+    width: 80%;
+    background-color: red;
+    height: 50vh;
+    margin:  auto;
+    margin-top: 12vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 5px 5px  gray;
+    max-width: 420px;
+    min-width: 400px;
+    max-height: 420px;
+}
+.timer__text{
+    font-family: monospace;
+    font-size: 2.5rem;
+    background-color: #b60404;
+    padding: 15px 100px;
+    box-shadow: 1px 1px 10px black;
+}
+.btn__container{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.timer__btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px white solid;
+    background-color: tomato;
+    color: white;
+    margin: 0px 10px;
+}
+.timer__btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+.btn__icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.footer p{
+    font-family: monospace;
+}
