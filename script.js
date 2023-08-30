@@ -16,7 +16,7 @@ let restTime = 0
 startBtn.addEventListener('click', () => {
     click++
     if(click % 2 == 0){
-        startBtn.innerHTML = '<img src="/svg/bx-play.svg" alt="start icon"></i> Reanudar'
+        startBtn.innerHTML = '<img src="./svg/bx-play.svg" alt="start icon"></i> Reanudar'
 
         pause = true   
         intervalStatus = false
@@ -26,7 +26,7 @@ startBtn.addEventListener('click', () => {
     }
     if(click % 2 == 1){
         pause = false
-        startBtn.innerHTML = '<img src="/svg/bx-pause.svg" alt="start icon"></i> Pausar'
+        startBtn.innerHTML = '<img src="./svg/bx-pause.svg" alt="start icon"></i> Pausar'
     }
     if(pause == false){
         intervalStatus = true
@@ -82,5 +82,5 @@ function restart() {
     click = 0
     clearInterval(myInterval)
     timerText.textContent = `${min}:0${sec}`
-    startBtn.innerHTML = '<img src="/svg/bx-play.svg" alt="start icon"></i> Empezar'
+    startBtn.innerHTML = '<img src="./svg/bx-play.svg" alt="start icon"></i> Empezar'
 }
