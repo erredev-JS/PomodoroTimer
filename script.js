@@ -68,7 +68,7 @@ startBtn.addEventListener('click', () => {
                 timerText.textContent = `${min}:${sec}`
 
             }
-        },20)
+        },1000)
     
     }
 })
