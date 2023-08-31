@@ -87,12 +87,14 @@ body{
 .timer__btn{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 20px;
     border: 1px white solid;
     background-color: tomato;
     color: white;
     margin: 0px 10px;
+    min-width: 104px;
+    justify-content: center;
 }
 .timer__btn:hover{
     transform: scale(1.1);
