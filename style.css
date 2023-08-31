@@ -1,4 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins&display=swap');
 *{
     padding: 0;
     box-sizing: border-box;
@@ -70,7 +71,7 @@ body{
     max-height: 420px;
 }
 .timer__text{
-    font-family: monospace;
+    font-family: 'JetBrains Mono';
     font-size: 2.5rem;
     background-color: #b60404;
     padding: 15px 100px;
